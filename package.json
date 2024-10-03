@@ -1,0 +1,19 @@
+{
+  "name": "sqlc-gen-typescript-for-neverchange",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.19.5",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@bufbuild/protobuf": "^1.4.2",
+    "javy": "^0.1.2"
+  }
+}

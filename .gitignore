@@ -1,0 +1,8 @@
+node_modules
+out.js
+*.wasm
+javy
+tests
+
+# mac
+.DS_Store
