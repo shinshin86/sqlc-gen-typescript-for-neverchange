@@ -11,15 +11,15 @@ It builds upon the foundation laid by the original project, while extending or m
 
 ## Usage
 
-TODO
+By adding the following to your `sqlc.yaml`, you can generate code using the `sqlc-gen-typescript-for-neverchange` plugin:
 
 ```yaml
 version: '2'
 plugins:
 - name: ts
   wasm:
-    url: file://plugin.wasm
-    sha256: {sha256_value}
+    url: https://github.com/shinshin86/sqlc-gen-typescript-for-neverchange/releases/download/v0.0.1/sqlc-gen-typescript-for-neverchange_0.0.1.wasm
+    sha256: 224c6494cc2f8383ae79a2ca4f9d3c5ce0ebacbf6df161d98c414bdfaf1db82d
 sql:
 - schema: "schema.sql"
   queries: "query.sql"
